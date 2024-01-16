@@ -5,9 +5,6 @@ This Python-based chess bot implements the Minimax algorithm with alpha-beta pru
 
 ## Features
 - **Minimax Algorithm:** The bot utilizes the Minimax algorithm to explore possible moves in the chess game tree and determine the best move.
-- **Alpha-Beta Pruning:** Alpha-beta pruning is employed to optimize the Minimax algorithm, reducing the number of nodes evaluated, and improving the overall performance.
+- **Alpha-Beta Pruning:** Alpha-beta pruning enhances the Minimax algorithm by eliminating branches that cannot affect the final decision. This reduces the number of nodes evaluated, making the algorithm more efficient.
 - **Python Implementation:** The entire project is written in Python, using the library python-chess, making it easy to understand, modify, and extend.
 
-## How it Works
-1. **Minimax Algorithm:** The Minimax algorithm explores the game tree by recursively simulating possible moves and counter-moves. It assigns a score to each position, considering both the current player and the opponent, and selects the move with the highest score.
-2. **Alpha-Beta Pruning:** Alpha-beta pruning enhances the Minimax algorithm by eliminating branches that cannot affect the final decision. This reduces the number of nodes evaluated, making the algorithm more efficient.
